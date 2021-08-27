@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="inetBanking Test automtion regression suite"
+	parallel="tests" thread-count="3">
+	
+	<listeners>
+		<listener
+			class-name="com.inetBanking.testlisteners.ExtentReportListener" />
+	</listeners>
+
+
+	<test name="LoginPage Test">
+		<classes>
+			<class name="com.inetBanking.Tests.TC_LoginTest_001" />
+			<class name="com.inetBanking.Tests.TC_LoginTestDDT_002" />
+
+		</classes>
+	</test>
+
+</suite>
