@@ -167,7 +167,7 @@ public class ElementUtil {
 	}
 	
 	public void getPageLinkTexts(By locator, int timeOut) {
-		visibilityOfAllElements(locator, timeOut).stream().forEach(ele -> System.out.println(ele.getText()));
+		//visibilityOfAllElements(locator, timeOut).stream().forEach(ele -> System.out.println(ele.getText()));
 	}
 
 	public void getPageLinksCount(By locator, int timeOut) {
