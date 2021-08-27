@@ -13,8 +13,8 @@
 	<test name="LoginPage Test">
 		<classes>
 			<class name="com.inetBanking.Tests.TC_LoginTest_001" />
-			<class name="com.inetBanking.Tests.TC_LoginTestDDT_002" />
-
+			<!-- <class name="com.inetBanking.Tests.TC_LoginTestDDT_002" />
+ -->
 		</classes>
 	</test>
 
